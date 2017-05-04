@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07F5A601EBBCBA200695F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5A5F1EBBCBA200695F36 /* AppDelegate.swift */; };
+		A07F5A621EBBCBA200695F36 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A07F5A611EBBCBA200695F36 /* GameScene.sks */; };
+		A07F5A641EBBCBA200695F36 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A07F5A631EBBCBA200695F36 /* Actions.sks */; };
+		A07F5A661EBBCBA200695F36 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5A651EBBCBA200695F36 /* GameScene.swift */; };
+		A07F5A681EBBCBA200695F36 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5A671EBBCBA200695F36 /* GameViewController.swift */; };
+		A07F5A6B1EBBCBA200695F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07F5A691EBBCBA200695F36 /* Main.storyboard */; };
+		A07F5A6D1EBBCBA300695F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07F5A6C1EBBCBA300695F36 /* Assets.xcassets */; };
+		A07F5A701EBBCBA300695F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07F5A6E1EBBCBA300695F36 /* LaunchScreen.storyboard */; };
+		A07F5A7B1EBBCBA300695F36 /* FloppyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5A7A1EBBCBA300695F36 /* FloppyCloneTests.swift */; };
+		A07F5A861EBBCBA400695F36 /* FloppyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5A851EBBCBA400695F36 /* FloppyCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A07F5A771EBBCBA300695F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07F5A541EBBCBA100695F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07F5A5B1EBBCBA100695F36;
+			remoteInfo = FloppyClone;
+		};
+		A07F5A821EBBCBA300695F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07F5A541EBBCBA100695F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07F5A5B1EBBCBA100695F36;
+			remoteInfo = FloppyClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A07F5A5C1EBBCBA100695F36 /* FloppyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloppyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07F5A5F1EBBCBA200695F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A07F5A611EBBCBA200695F36 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A07F5A631EBBCBA200695F36 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A07F5A651EBBCBA200695F36 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A07F5A671EBBCBA200695F36 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A07F5A6A1EBBCBA200695F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A07F5A6C1EBBCBA300695F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A07F5A6F1EBBCBA300695F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A07F5A711EBBCBA300695F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07F5A761EBBCBA300695F36 /* FloppyCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07F5A7A1EBBCBA300695F36 /* FloppyCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyCloneTests.swift; sourceTree = "<group>"; };
+		A07F5A7C1EBBCBA300695F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07F5A811EBBCBA300695F36 /* FloppyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07F5A851EBBCBA400695F36 /* FloppyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyCloneUITests.swift; sourceTree = "<group>"; };
+		A07F5A871EBBCBA400695F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07F5A591EBBCBA100695F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07F5A731EBBCBA300695F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07F5A7E1EBBCBA300695F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07F5A531EBBCBA100695F36 = {
+			isa = PBXGroup;
+			children = (
+				A07F5A5E1EBBCBA100695F36 /* FloppyClone */,
+				A07F5A791EBBCBA300695F36 /* FloppyCloneTests */,
+				A07F5A841EBBCBA300695F36 /* FloppyCloneUITests */,
+				A07F5A5D1EBBCBA100695F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A07F5A5D1EBBCBA100695F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07F5A5C1EBBCBA100695F36 /* FloppyClone.app */,
+				A07F5A761EBBCBA300695F36 /* FloppyCloneTests.xctest */,
+				A07F5A811EBBCBA300695F36 /* FloppyCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07F5A5E1EBBCBA100695F36 /* FloppyClone */ = {
+			isa = PBXGroup;
+			children = (
+				A07F5A5F1EBBCBA200695F36 /* AppDelegate.swift */,
+				A07F5A611EBBCBA200695F36 /* GameScene.sks */,
+				A07F5A631EBBCBA200695F36 /* Actions.sks */,
+				A07F5A651EBBCBA200695F36 /* GameScene.swift */,
+				A07F5A671EBBCBA200695F36 /* GameViewController.swift */,
+				A07F5A691EBBCBA200695F36 /* Main.storyboard */,
+				A07F5A6C1EBBCBA300695F36 /* Assets.xcassets */,
+				A07F5A6E1EBBCBA300695F36 /* LaunchScreen.storyboard */,
+				A07F5A711EBBCBA300695F36 /* Info.plist */,
+			);
+			path = FloppyClone;
+			sourceTree = "<group>";
+		};
+		A07F5A791EBBCBA300695F36 /* FloppyCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A07F5A7A1EBBCBA300695F36 /* FloppyCloneTests.swift */,
+				A07F5A7C1EBBCBA300695F36 /* Info.plist */,
+			);
+			path = FloppyCloneTests;
+			sourceTree = "<group>";
+		};
+		A07F5A841EBBCBA300695F36 /* FloppyCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A07F5A851EBBCBA400695F36 /* FloppyCloneUITests.swift */,
+				A07F5A871EBBCBA400695F36 /* Info.plist */,
+			);
+			path = FloppyCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07F5A5B1EBBCBA100695F36 /* FloppyClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07F5A8A1EBBCBA400695F36 /* Build configuration list for PBXNativeTarget "FloppyClone" */;
+			buildPhases = (
+				A07F5A581EBBCBA100695F36 /* Sources */,
+				A07F5A591EBBCBA100695F36 /* Frameworks */,
+				A07F5A5A1EBBCBA100695F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloppyClone;
+			productName = FloppyClone;
+			productReference = A07F5A5C1EBBCBA100695F36 /* FloppyClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A07F5A751EBBCBA300695F36 /* FloppyCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07F5A8D1EBBCBA400695F36 /* Build configuration list for PBXNativeTarget "FloppyCloneTests" */;
+			buildPhases = (
+				A07F5A721EBBCBA300695F36 /* Sources */,
+				A07F5A731EBBCBA300695F36 /* Frameworks */,
+				A07F5A741EBBCBA300695F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07F5A781EBBCBA300695F36 /* PBXTargetDependency */,
+			);
+			name = FloppyCloneTests;
+			productName = FloppyCloneTests;
+			productReference = A07F5A761EBBCBA300695F36 /* FloppyCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A07F5A801EBBCBA300695F36 /* FloppyCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07F5A901EBBCBA400695F36 /* Build configuration list for PBXNativeTarget "FloppyCloneUITests" */;
+			buildPhases = (
+				A07F5A7D1EBBCBA300695F36 /* Sources */,
+				A07F5A7E1EBBCBA300695F36 /* Frameworks */,
+				A07F5A7F1EBBCBA300695F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07F5A831EBBCBA300695F36 /* PBXTargetDependency */,
+			);
+			name = FloppyCloneUITests;
+			productName = FloppyCloneUITests;
+			productReference = A07F5A811EBBCBA300695F36 /* FloppyCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A07F5A541EBBCBA100695F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vladislav Shilov";
+				TargetAttributes = {
+					A07F5A5B1EBBCBA100695F36 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					A07F5A751EBBCBA300695F36 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A07F5A5B1EBBCBA100695F36;
+					};
+					A07F5A801EBBCBA300695F36 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A07F5A5B1EBBCBA100695F36;
+					};
+				};
+			};
+			buildConfigurationList = A07F5A571EBBCBA100695F36 /* Build configuration list for PBXProject "FloppyClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A07F5A531EBBCBA100695F36;
+			productRefGroup = A07F5A5D1EBBCBA100695F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A07F5A5B1EBBCBA100695F36 /* FloppyClone */,
+				A07F5A751EBBCBA300695F36 /* FloppyCloneTests */,
+				A07F5A801EBBCBA300695F36 /* FloppyCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07F5A5A1EBBCBA100695F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F5A6B1EBBCBA200695F36 /* Main.storyboard in Resources */,
+				A07F5A621EBBCBA200695F36 /* GameScene.sks in Resources */,
+				A07F5A6D1EBBCBA300695F36 /* Assets.xcassets in Resources */,
+				A07F5A701EBBCBA300695F36 /* LaunchScreen.storyboard in Resources */,
+				A07F5A641EBBCBA200695F36 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07F5A741EBBCBA300695F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07F5A7F1EBBCBA300695F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07F5A581EBBCBA100695F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F5A661EBBCBA200695F36 /* GameScene.swift in Sources */,
+				A07F5A681EBBCBA200695F36 /* GameViewController.swift in Sources */,
+				A07F5A601EBBCBA200695F36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07F5A721EBBCBA300695F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F5A7B1EBBCBA300695F36 /* FloppyCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07F5A7D1EBBCBA300695F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F5A861EBBCBA400695F36 /* FloppyCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A07F5A781EBBCBA300695F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07F5A5B1EBBCBA100695F36 /* FloppyClone */;
+			targetProxy = A07F5A771EBBCBA300695F36 /* PBXContainerItemProxy */;
+		};
+		A07F5A831EBBCBA300695F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07F5A5B1EBBCBA100695F36 /* FloppyClone */;
+			targetProxy = A07F5A821EBBCBA300695F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A07F5A691EBBCBA200695F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07F5A6A1EBBCBA200695F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A07F5A6E1EBBCBA300695F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07F5A6F1EBBCBA300695F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07F5A881EBBCBA400695F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A07F5A891EBBCBA400695F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07F5A8B1EBBCBA400695F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloppyClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VladShilov.FloppyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A07F5A8C1EBBCBA400695F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloppyClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VladShilov.FloppyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A07F5A8E1EBBCBA400695F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloppyCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VladShilov.FloppyCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloppyClone.app/FloppyClone";
+			};
+			name = Debug;
+		};
+		A07F5A8F1EBBCBA400695F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloppyCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VladShilov.FloppyCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloppyClone.app/FloppyClone";
+			};
+			name = Release;
+		};
+		A07F5A911EBBCBA400695F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FloppyCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VladShilov.FloppyCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FloppyClone;
+			};
+			name = Debug;
+		};
+		A07F5A921EBBCBA400695F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FloppyCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VladShilov.FloppyCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FloppyClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A07F5A571EBBCBA100695F36 /* Build configuration list for PBXProject "FloppyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07F5A881EBBCBA400695F36 /* Debug */,
+				A07F5A891EBBCBA400695F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07F5A8A1EBBCBA400695F36 /* Build configuration list for PBXNativeTarget "FloppyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07F5A8B1EBBCBA400695F36 /* Debug */,
+				A07F5A8C1EBBCBA400695F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A07F5A8D1EBBCBA400695F36 /* Build configuration list for PBXNativeTarget "FloppyCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07F5A8E1EBBCBA400695F36 /* Debug */,
+				A07F5A8F1EBBCBA400695F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A07F5A901EBBCBA400695F36 /* Build configuration list for PBXNativeTarget "FloppyCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07F5A911EBBCBA400695F36 /* Debug */,
+				A07F5A921EBBCBA400695F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A07F5A541EBBCBA100695F36 /* Project object */;
+}
